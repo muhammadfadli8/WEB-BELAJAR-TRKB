@@ -1,2 +1,88 @@
 # WEB-BELAJAR-TRKB
 Platform belajar trkb
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>AI Learning Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+<div class="logo">AI Learning</div>
+<div class="menu">
+<a href="#">Dashboard</a>
+<a href="#">Materi</a>
+<a href="#">Latihan</a>
+<a href="#">Kuis</a>
+</div>
+</div>
+
+<!-- Layout -->
+<div class="layout">
+
+<!-- Sidebar -->
+<div class="sidebar">
+<h3>Mata Kuliah</h3>
+<ul>
+<li>Artificial Intelligence</li>
+<li>Neural Network</li>
+<li>Machine Learning</li>
+</ul>
+</div>
+
+<!-- Content -->
+<div class="content">
+
+<h2>Materi Pembelajaran</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>Artificial Neural Network</h3>
+<p>Pengantar konsep jaringan saraf tiruan.</p>
+<button>Buka Materi</button>
+</div>
+
+<div class="card">
+<h3>Backpropagation</h3>
+<p>Algoritma training neural network.</p>
+<button>Buka Materi</button>
+</div>
+
+<div class="card">
+<h3>Gradient Descent</h3>
+<p>Metode optimasi dalam machine learning.</p>
+<button>Buka Materi</button>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Chatbot -->
+<div class="chatbot">
+
+<div class="chat-header">
+AI Tutor
+</div>
+
+<div class="chat-body" id="chatbody"></div>
+
+<div class="chat-input">
+<input type="text" id="userInput" placeholder="Tanya sesuatu...">
+<button onclick="kirim()">Kirim</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
