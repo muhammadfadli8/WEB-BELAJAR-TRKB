@@ -1,0 +1,121 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f5f6fa;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#2c3e50;
+color:white;
+padding:15px 30px;
+}
+
+.menu a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+/* Layout */
+
+.layout{
+display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:200px;
+background:white;
+padding:20px;
+height:100vh;
+box-shadow:2px 0px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+margin-bottom:10px;
+}
+
+/* Content */
+
+.content{
+flex:1;
+padding:30px;
+}
+
+/* Cards */
+
+.card-container{
+display:flex;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+width:200px;
+}
+
+.card button{
+background:#3498db;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Chatbot */
+
+.chatbot{
+position:fixed;
+bottom:20px;
+right:20px;
+width:300px;
+background:white;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+
+.chat-header{
+background:#3498db;
+color:white;
+padding:10px;
+}
+
+.chat-body{
+height:200px;
+padding:10px;
+overflow-y:auto;
+}
+
+.chat-input{
+display:flex;
+border-top:1px solid #ddd;
+}
+
+.chat-input input{
+flex:1;
+border:none;
+padding:10px;
+}
+
+.chat-input button{
+background:#3498db;
+color:white;
+border:none;
+padding:10px;
+}
